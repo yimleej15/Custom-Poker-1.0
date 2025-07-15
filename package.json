@@ -1,0 +1,17 @@
+{
+  "name": "Custom Poker Game",
+  "version": "1.0.0",
+  "description": "A multiplayer poker game with customization.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yee Leng Yang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0"
+  }
+}
