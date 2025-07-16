@@ -14,7 +14,7 @@ const STARTING_CHIPS = 2000;
 const SMALL_BLIND = 10;
 const BIG_BLIND = 20;
 
-app.use(express.static(path.join(__dirname, 'Public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // --- Game Logic and State ---
 let channels = {};
